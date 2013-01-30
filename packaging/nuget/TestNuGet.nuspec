@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>TestNuGet</id>
+    <version>$version$</version>
+    <title>TestNuGet</title>
+    <authors>Aravind</authors>
+    <owners>Aravind</owners>
+    <projectUrl>https://github.com/AravindRK/TestNuGet</projectUrl>
+    <iconUrl>https://github.com/AravindRK/TestNuGet/blob/master/packaging/Logo.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>TestNuGet</description>
+    <releaseNotes>Alpha version</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>TestNuGet</tags>
+    <dependencies>      
+      <dependency id="Microsoft.AspNet.WebApi.Client" version="4.0.20710.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\..\src\WebApiContrib\bin\Debug\TestNuGet.dll" target="lib" />
+    <file src="..\..\src\WebApiContrib\bin\Debug\TestNuGet.pdb" target="lib" />
+    <file src="..\..\tools\psake\default.ps1" target="tools" />
+    <file src="..\..\tools\psake\psake.bat" target="tools" />
+    <file src="..\..\tools\psake\psake.psm1" target="tools" />
+    <file src="..\..\tools\nunit\SimpleSummary.xslt" target="tools" />
+  </files>
+</package>
