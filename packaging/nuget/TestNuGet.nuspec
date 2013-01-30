@@ -18,7 +18,8 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="..\..\src\WebApiContrib\bin\Debug\TestNuGet.dll" target="lib" />    
+    <file src="..\..\src\WebApiContrib\bin\Debug\TestNuGet.dll" target="lib" />
+    <file src="..\..\src\WebApiContrib\bin\Debug\TestNuGet.pdb" target="lib" />
     <file src="..\..\tools\psake\default.ps1" target="tools" />
     <file src="..\..\tools\psake\psake.bat" target="tools" />
     <file src="..\..\tools\psake\psake.psm1" target="tools" />
